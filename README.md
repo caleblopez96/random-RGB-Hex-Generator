@@ -7,3 +7,6 @@ The array colorList has over 500 hex color combinations inside of it. minimize t
 With each click on the button, the function randomColor is called.
 randomColor uses the length of the array to get a random element (hex code) and then assigns the value of the random element to the variable color.
 color is then used to set the backgroundColor of the button and the innerText.
+
+Instead of creating an array with multiple hex color combinations, you can just copy and paste the colorList array.
+The logic behind the RNG and setting the button backgroundColor/innerText --> use lines 559-570.
